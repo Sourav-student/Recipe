@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(52, 52, 52);
+}
+
+.main {
+    display: flex;
+}
+
+.nameCompany{
+    background-color: aquamarine;
+    display: inline-flex;
+    padding: 10px;
+    color: rgb(0, 47, 56);
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.auto {
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-black-500 {
+    background-color: rgb(136, 136, 136);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sear {
+    position: absolute;
+    bottom: 10px;
+    right: 13vw;
+}
+
+#search {
+    width: 74vw;
+    height: 40px;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+    background: #ffffff;
+    color: rgb(19, 19, 19);
+}
+
+.quesDisplay {
+    overflow-y: scroll;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+#question,
+#answer {
+    height: auto;
+    width: auto;
+    min-width: 50vw;
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer{
+    margin-bottom: 30px;
+}
+
+.imageAi {
+    height: 50px;
+    width: 50px;
+}
+
+#upArr {
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+}
+
+@media (max-width : 1000px) {
+    .w-20vw {
+        width: 0vw;
+        height: 100vh;
+    }
+
+    .auto {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sear {
+        position: absolute;
+        right: 15vw;
+    }
+}
+
+@media (max-width : 500px) {
+
+    #question,
+    #answer {
+        font-size: 18px;
+    }
+
+    .sear {
+        position: absolute;
+        right: 13vw;
+    }
+}
