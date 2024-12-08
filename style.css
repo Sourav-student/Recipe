@@ -134,7 +134,7 @@ body {
     #question,
     #answer {
         padding: 20px;
-        min-width: 87vw;
+        min-width: 90vw;
     }
 
 }
@@ -163,7 +163,7 @@ body {
 
     #question,
     #answer {
-        min-width: 80vw;
+        min-width: 85vw;
     }
 
 }
