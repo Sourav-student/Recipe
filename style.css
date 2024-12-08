@@ -12,7 +12,7 @@ body {
     display: flex;
 }
 
-.nameCompany{
+.nameCompany {
     background-color: aquamarine;
     display: inline-flex;
     padding: 10px;
@@ -70,7 +70,7 @@ body {
 #answer {
     height: auto;
     width: auto;
-    min-width: 50vw;
+    min-width: 80vw;
     background-color: #2f2f2f;
     color: #ffffff;
     padding: 20px;
@@ -78,13 +78,12 @@ body {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    padding: 40px;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-#answer{
+#answer {
     margin-bottom: 30px;
 }
 
@@ -107,9 +106,9 @@ body {
 }
 
 .block {
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media (max-width : 1000px) {
@@ -125,7 +124,11 @@ body {
 
     .sear {
         position: absolute;
-        right: 15vw;
+        right: 5vw;
+    }
+
+    #search {
+        width: 85vw;
     }
 }
 
@@ -133,11 +136,18 @@ body {
 
     #question,
     #answer {
-        font-size: 18px;
+        font-size: 15px;
     }
 
-    .sear {
-        position: absolute;
-        right: 13vw;
+    .nameCompany {
+        background-color: aquamarine;
+        display: inline-flex;
+        padding: 5px;
+        font-size: 25px;
+        color: rgb(0, 47, 56);
+        border-radius: 15px;
+        margin: 5px;
+        margin-bottom: 5px;
     }
+
 }
